@@ -1,0 +1,36 @@
+{
+  "name": "@econome/forge.jyros",
+  "version": "1.1.7",
+  "description": "A Extension for Project Econome Bots",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@iamtraction/google-translate": "^2.0.1",
+    "@jest/globals": "^29.7.0",
+    "@tryforge/forgescript": "^1.4.0",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "jest": "^29.7.0",
+    "typedoc": "^0.26.7",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "docgen": "tsc && typedoc src/index.ts && node dist/docgen",
+    "test": "tsc && node __tests__/"
+  },
+  "keywords": [],
+  "author": "Project-Econome",
+  "license": "ISC",
+  "compilerOptions": {
+    "types": [
+      "jest"
+    ]
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@iamtraction/google-translate": "^2.0.1",
+    "chalk": "^5.4.1"
+  }
+}
