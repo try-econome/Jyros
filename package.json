@@ -1,6 +1,6 @@
 {
   "name": "@econome/forge.jyros",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A Extension for Project Econome Bots",
   "main": "dist/index.js",
   "devDependencies": {
